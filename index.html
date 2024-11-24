@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Divs with Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+          <div class="movable-div" id="left-div">
+            <div class="header"></div>
+          </div>
+          <div class="movable-div" id="middle-div">
+            <div class="header"></div>
+            <iframe src="build/index.html" frameborder="0" id="game-frame"></iframe>
+          </div>
+          <div class="movable-div" id="right-div">
+            <div class="header"></div>
+          </div>
+        </div>
+  <script src="script.js"></script>
+</body>
+</html>
